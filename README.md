@@ -2,7 +2,7 @@
 
 This extension simplifies YouTube's user interface by removing various components that I consider to be eyesores and useless while also adding additional nice-to-have functionalities using CSS. Works with YouTube's latest UI (signed in) as of the most recent update date.
 
-## List of UI elements removed (CSS)
+## List of UI elements removed
 
 ### Across YouTube
 
