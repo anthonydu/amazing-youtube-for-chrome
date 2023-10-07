@@ -1,11 +1,17 @@
 {
-  "name": "My Chrome Extension",
+  "name": "Amazing YouTube for Chrome",
   "version": "1.0.0",
-  "description": "Hello, world",
+  "description": "Simplifies YouTube's Interface",
   "manifest_version": 3,
   "author": "Anthony Du",
   "action": {
     "default_popup": "index.html",
     "default_title": "My Chrome Extension"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
 }
