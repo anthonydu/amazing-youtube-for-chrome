@@ -153,3 +153,14 @@ ytd-reel-shelf-renderer {
   > button.ytp-pip-button.ytp-button {
   display: inline-block !important;
 }
+
+/* Removes ads in suggestions feed */
+ytd-rich-item-renderer:has(ytd-in-feed-ad-layout-renderer) {
+  display: none !important;
+}
+.ytd-in-feed-ad-layout-renderer {
+  display: none !important;
+}
+.player-ads {
+  display: none !important;
+}
