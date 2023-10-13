@@ -83,36 +83,18 @@ ytd-reel-shelf-renderer {
 }
 
 /* Removes clip, super thanks button from detail section */
-#top-level-buttons-computed
-  > ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.cbox.yt-spec-button-shape-next__button-text-content,
-#flexible-item-buttons
-  > *
-  > ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.cbox.yt-spec-button-shape-next__button-text-content,
-#flexible-item-buttons
-  > ytd-button-renderer:has([aria-label="Save to playlist"])
-  div.cbox.yt-spec-button-shape-next__button-text-content {
+ytd-button-renderer:has(button[aria-label="Share"])
+  .yt-spec-button-shape-next__button-text-content,
+ytd-download-button-renderer .yt-spec-button-shape-next__button-text-content,
+ytd-button-renderer:has(button[aria-label="Save to playlist"])
+  .yt-spec-button-shape-next__button-text-content {
   display: none !important;
 }
-#top-level-buttons-computed
-  > ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.yt-spec-button-shape-next__icon,
-#flexible-item-buttons
-  > *
-  > ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.yt-spec-button-shape-next__icon,
-#flexible-item-buttons
-  > ytd-button-renderer:has([aria-label="Save to playlist"])
-  div.yt-spec-button-shape-next__icon {
+ytd-button-renderer:has(button[aria-label="Share"])
+  .yt-spec-button-shape-next__icon,
+ytd-download-button-renderer .yt-spec-button-shape-next__icon,
+ytd-button-renderer:has(button[aria-label="Save to playlist"])
+  .yt-spec-button-shape-next__icon {
   margin-right: -6px !important;
   margin-left: -6px !important;
 }
@@ -161,6 +143,6 @@ ytd-rich-item-renderer:has(ytd-in-feed-ad-layout-renderer) {
 .ytd-in-feed-ad-layout-renderer {
   display: none !important;
 }
-.player-ads {
+#player-ads {
   display: none !important;
 }

@@ -12,7 +12,6 @@ suggestions feed ad blocking feature has been added this extension
 in case ad blockers only allow whitelisting of entire domains.
 I would personally suggest using this extension with
 [YouMute](https://chromewebstore.google.com/detail/bhlmjoeobnofoajffmnpcahfaffihmbh)
-or [Autoskip for Youtube™ Ads](https://chromewebstore.google.com/detail/hmbnhhcgiecenbbkgdoaoafjpeaboine)
 for the most amazing YouTube experience.
 
 ## List of UI elements removed
