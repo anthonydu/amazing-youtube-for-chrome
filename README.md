@@ -33,11 +33,14 @@ for the most amazing YouTube experience.
 
 - Annotation
 - Suggested filters above the up next column
-- Text labels from buttons in the video details section (side effect: flexible items that were usually hidden will now have space to show up, i.e. download and save)
+- Text labels from buttons in the video details section
+  (side effect: flexible items that were usually hidden will
+  now have space to show up, i.e. download and save)
 - Clip and super thanks buttons removed from video details section
 - Removes ads in suggestions feed
 
 ## Added functionalities
 
 - Theater mode player will always be 16:9 (off by default)
-- Replaces mini-player button with picture-in-picture (which YouTube has built-in but does not display for some reason)
+- Replaces mini-player button with picture-in-picture
+  (which YouTube has built-in but does not display for some reason)
