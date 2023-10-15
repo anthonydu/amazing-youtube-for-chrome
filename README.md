@@ -5,15 +5,6 @@ removing various components that I consider to be eyesores and
 useless while also adding additional nice-to-have functionalities using CSS.
 Works with YouTube's latest UI (signed in) as of the most recent update date.
 
-## Latest Updates
-
-Since blocking of in-stream ads is no longer allowed on YouTube,
-suggestions feed ad blocking feature has been added this extension
-in case ad blockers only allow whitelisting of entire domains.
-I would personally suggest using this extension with
-[YouMute](https://chromewebstore.google.com/detail/bhlmjoeobnofoajffmnpcahfaffihmbh)
-for the most amazing YouTube experience.
-
 ## List of UI elements removed
 
 ### Across YouTube
