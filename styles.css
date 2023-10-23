@@ -146,3 +146,6 @@ ytd-rich-item-renderer:has(ytd-in-feed-ad-layout-renderer) {
 #player-ads {
   display: none !important;
 }
+#masthead-ad {
+  display: none !important;
+}
