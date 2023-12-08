@@ -55,62 +55,31 @@ ytd-reel-shelf-renderer {
 }
 
 /* Removes text from detail section buttons */
-#top-level-buttons-computed
-  > ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.cbox.yt-spec-button-shape-next--button-text-content
-  > span,
-#flexible-item-buttons
-  ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.cbox.yt-spec-button-shape-next--button-text-content
-  > span {
-  display: none !important;
-}
-#top-level-buttons-computed
-  > ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.yt-spec-button-shape-next__icon,
-#flexible-item-buttons
-  ytd-button-renderer
-  > yt-button-shape
-  > button
-  > div.yt-spec-button-shape-next__icon {
-  margin-right: -6px !important;
-}
-
-/* Removes clip, super thanks button from detail section */
 ytd-button-renderer:has(button[aria-label="Share"])
   .yt-spec-button-shape-next__button-text-content,
 ytd-download-button-renderer .yt-spec-button-shape-next__button-text-content,
-ytd-button-renderer:has(button[aria-label="Save to playlist"])
+yt-button-view-model:has(button[aria-label="Save to playlist"])
   .yt-spec-button-shape-next__button-text-content {
   display: none !important;
 }
 ytd-button-renderer:has(button[aria-label="Share"])
   .yt-spec-button-shape-next__icon,
 ytd-download-button-renderer .yt-spec-button-shape-next__icon,
-ytd-button-renderer:has(button[aria-label="Save to playlist"])
+yt-button-view-model:has(button[aria-label="Save to playlist"])
   .yt-spec-button-shape-next__icon {
   margin-right: -6px !important;
   margin-left: -6px !important;
 }
-#flexible-item-buttons > ytd-button-renderer:has([aria-label="Thanks"]),
-#flexible-item-buttons > ytd-button-renderer:has([aria-label="Clip"]) {
-  display: none !important;
-}
 
-/* Sets theater mode to always be 16:9 (max-height persists by default) */
-#movie_player > div.html5-video-container {
-  width: 100% !important;
-  height: 100% !important;
-}
-#player-theater-container {
-  /* max-height: unset !important; */
-  min-height: unset !important;
+/* Brings back the download button */
+/* ytd-download-button-renderer {
+  display: inline-block !important;
+} */
+
+/* Removes clip, super thanks button from detail section */
+yt-button-view-model:has(button[aria-label="Thanks"]),
+yt-button-view-model:has(button[aria-label="Clip"]) {
+  display: none !important;
 }
 
 /* Removes annotation */
@@ -121,13 +90,13 @@ ytd-button-renderer:has(button[aria-label="Save to playlist"])
 }
 
 /* Replaces miniplayer button with picture-in-picture */
-#movie_player
+/* #movie_player
   > div.ytp-chrome-bottom
   > div.ytp-chrome-controls
   > div.ytp-right-controls
   > button.ytp-miniplayer-button.ytp-button {
   display: none !important;
-}
+} */
 #movie_player
   > div.ytp-chrome-bottom
   > div.ytp-chrome-controls
@@ -137,7 +106,7 @@ ytd-button-renderer:has(button[aria-label="Save to playlist"])
 }
 
 /* Removes ads in suggestions feed */
-ytd-rich-item-renderer:has(ytd-in-feed-ad-layout-renderer) {
+/* ytd-rich-item-renderer:has(ytd-in-feed-ad-layout-renderer) {
   display: none !important;
 }
 .ytd-in-feed-ad-layout-renderer {
@@ -148,4 +117,4 @@ ytd-rich-item-renderer:has(ytd-in-feed-ad-layout-renderer) {
 }
 #masthead-ad {
   display: none !important;
-}
+} */

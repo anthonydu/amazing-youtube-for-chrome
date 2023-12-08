@@ -5,7 +5,7 @@ removing various components that I consider to be eyesores and
 useless while also adding additional nice-to-have functionalities using CSS.
 Works with YouTube's latest UI (signed in) as of the most recent update date.
 
-## List of UI elements removed
+## List of UI Elements Removed
 
 ### Across YouTube
 
@@ -18,20 +18,17 @@ Works with YouTube's latest UI (signed in) as of the most recent update date.
 
 - Suggested filters below the header
 - All shelves in home page suggestions (Shorts, etc.)
-- Removes ads in suggestions feed
 
 ### Watch page
 
 - Annotation
 - Suggested filters above the up next column
-- Text labels from buttons in the video details section
-  (side effect: flexible items that were usually hidden will
-  now have space to show up, i.e. download and save)
+- Text labels from buttons in the video details section,
+  more flexible items that were usually hidden will
+  now have space to show up
 - Clip and super thanks buttons removed from video details section
-- Removes ads in suggestions feed
 
-## Added functionalities
+## List of UI Elements Added
 
-- Theater mode player will always be 16:9 (off by default)
-- Replaces mini-player button with picture-in-picture
-  (which YouTube has built-in but does not display for some reason)
+- Picture-in-picture button on video player
+  (which YouTube has built-in but is hidden)
